@@ -5,4 +5,4 @@ on:
     branches: [ "main" ]
 jobs:
   ci:
-    uses:  ./.github/.github/workflows/ci.yml
+    uses:  ./daniel-kraemer/.github/.github/workflows/ci.yml
