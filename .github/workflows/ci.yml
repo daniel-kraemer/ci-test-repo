@@ -7,3 +7,4 @@ on:
 jobs:
   ci:
     uses:  daniel-kraemer/.github/.github/workflows/ci.yml@main
+    secrets: inherit
