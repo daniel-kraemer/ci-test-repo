@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
+pull-requests: read
 jobs:
   ci:
     uses:  daniel-kraemer/.github/.github/workflows/sonarqube.yml@main
