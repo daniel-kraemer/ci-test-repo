@@ -5,5 +5,6 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 jobs:
-  ci:
+  owasp:
     uses:  daniel-kraemer/.github/.github/workflows/owasp.yml@main
+    secrets: inherit
