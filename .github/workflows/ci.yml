@@ -1,3 +1,8 @@
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 jobs:
   ci:
-    uses: ./.github/workflow-templates/ci.yml@v0
+    uses: daniel-kraemer/.github/workflow-templates/ci.yml@main
