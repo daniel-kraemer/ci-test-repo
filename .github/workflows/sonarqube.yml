@@ -7,5 +7,6 @@ on:
 permissions:
   pull-requests: read
 jobs:
-  ci:
+  sonarqube:
     uses:  daniel-kraemer/.github/.github/workflows/sonarqube.yml@main
+    secrets: inherit
